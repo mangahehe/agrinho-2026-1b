@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultura Familiar - Agrinho 2026 | Paraná</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>Agricultura Familiar</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#dados" class="nav-link">Dados</a></li>
+                <li class="nav-item"><a href="#sustentabilidade" class="nav-link">Sustentabilidade</a></li>
+                <li class="nav-item"><a href="#desafios" class="nav-link">Desafios</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Agricultura Familiar</h1>
+            <p>Alimentando o Brasil com sustentabilidade e responsabilidade</p>
+            <p class="tema-agrinho">Tema Agrinho 2026: "Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"</p>
+            <button class="btn btn-primary" onclick="scrollToSection('sobre')">Saiba Mais</button>
+        </div>
+        <div class="hero-image">
+            <i class="fas fa-tractor"></i>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>O que é Agricultura Familiar?</h2>
+            <div class="sobre-grid">
+                <div class="sobre-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Propriedade Familiar</h3>
+                    <p>Propriedades com até 4 módulos fiscais, onde a mão de obra é predominantemente familiar e a renda vem principalmente das atividades desenvolvidas no próprio estabelecimento.</p>
+                </div>
+                <div class="sobre-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Gestão Familiar</h3>
+                    <p>O empreendimento é dirigido pela própria família, que participa ativamente das decisões e do trabalho diário. Inclui mulheres, jovens e idosos da comunidade rural.</p>
+                </div>
+                <div class="sobre-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Diversidade de Produção</h3>
+                    <p>Pequenos produtores rurais, comunidades tradicionais, assentados da reforma agrária, silvicultores, aquicultores, extrativistas e pescadores fazem parte desse segmento.</p>
+                </div>
+            </div>
+
+            <div class="definicao-legal">
+                <h3>Definição Legal</h3>
+                <p>De acordo com a Política Nacional de Agricultura Familiar e Empreendimentos Familiares Rurais, o agricultor familiar é aquele que pratica atividades no meio rural, atendendo simultaneamente aos seguintes requisitos:</p>
+                <ul class="requisitos-list">
+                    <li><strong>Área:</strong> Não ter propriedade maior que 4 módulos fiscais</li>
+                    <li><strong>Mão de Obra:</strong> Utilizar predominantemente mão de obra da própria família</li>
+                    <li><strong>Renda:</strong> Ter renda familiar predominantemente originada de atividades econômicas vinculadas ao próprio estabelecimento</li>
+                    <li><strong>Gestão:</strong> Dirigir seu empreendimento com sua família</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Dados e Estatísticas -->
+    <section id="dados" class="dados">
+        <div class="container">
+            <h2>Agricultura Familiar no Paraná</h2>
+            <p class="secao-intro">Dados e números que mostram a importância desse segmento para a economia paranaense e brasileira.</p>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">75%</div>
+                    <div class="stat-label">dos empreendimentos rurais no Paraná são de agricultura familiar</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">90%</div>
+                    <div class="stat-label">dos municípios brasileiros com até 20 mil habitantes têm a agricultura familiar como base econômica</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">23%</div>
+                    <div class="stat-label">do valor bruto da produção agrícola vem da agricultura familiar</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">R$ 10,5 bi</div>
+                    <div class="stat-label">disponibilizados para crédito rural no Paraná em 2025/2026</div>
+                </div>
+            </div>
+
+            <h3>Principais Produtos da Agricultura Familiar</h3>
+            <div class="produtos-grid">
+                <div class="produto-item">
+                    <i class="fas fa-corn"></i>
+                    <span>Milho</span>
+                </div>
+                <div class="produto-item">
+                    <i class="fas fa-leaf"></i>
+                    <span>Mandioca</span>
+                </div>
+                <div class="produto-item">
+                    <i class="fas fa-droplet"></i>
+                    <span>Leite</span>
+                </div>
+                <div class="produto-item">
+                    <i class="fas fa-carrot"></i>
+                    <span>Olerícolas</span>
+                </div>
+                <div class="produto-item">
+                    <i class="fas fa-beans"></i>
+                    <span>Feijão</span>
+                </div>
+                <div class="produto-item">
+                    <i class="fas fa-wheat"></i>
+                    <span>Arroz</span>
+                </div>
+                <div class="produto-item">
+                    <i class="fas fa-apple"></i>
+                    <span>Frutas</span>
+                </div>
+                <div class="produto-item">
+                    <i class="fas fa-coffee"></i>
+                    <span>Café</span>
+                </div>
+                <div class="produto-item">
+                    <i class="fas fa-egg"></i>
+                    <span>Aves e Suínos</span>
+                </div>
+                <div class="produto-item">
+                    <i class="fas fa-wheat-awn"></i>
+                    <span>Trigo</span>
+                </div>
+            </div>
+
+            <div class="atendimentos">
+                <h3>Assistência Técnica no Paraná (2026)</h3>
+                <div class="atendimentos-grid">
+                    <div class="atend-card">
+                        <div class="atend-number">157.463</div>
+                        <p>Atendimentos individuais realizados</p>
+                    </div>
+                    <div class="atend-card">
+                        <div class="atend-number">5.974</div>
+                        <p>Atendimentos em grupos</p>
+                    </div>
+                    <div class="atend-card">
+                        <div class="atend-number">378</div>
+                        <p>Cursos oferecidos</p>
+                    </div>
+                    <div class="atend-card">
+                        <div class="atend-number">231</div>
+                        <p>Encontros técnicos realizados</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sustentabilidade -->
+    <section id="sustentabilidade" class="sustentabilidade">
+        <div class="container">
+            <h2>Sustentabilidade e Práticas Agroecológicas</h2>
+            <p class="secao-intro">A agricultura familiar é fundamental para a preservação do meio ambiente e a produção sustentável de alimentos.</p>
+
+            <div class="praticas-grid">
+                <div class="pratica-card">
+                    <div class="pratica-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Reaproveitamento de Resíduos</h3>
+                    <p>Utilização de resíduos orgânicos para compostagem e adubação natural, reduzindo a dependência de insumos químicos e economizando recursos.</p>
+                </div>
+
+                <div class="pratica-card">
+                    <div class="pratica-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Proteção de Nascentes</h3>
+                    <p>Preservação de fontes de água e manutenção de áreas de preservação permanente, garantindo água de qualidade para a propriedade e comunidade.</p>
+                </div>
+
+                <div class="pratica-card">
+                    <div class="pratica-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Agroecologia</h3>
+                    <p>Ciência que repensa a relação entre o ser humano e a natureza, utilizando conhecimentos tradicionais e tecnologias sustentáveis para produzir melhor.</p>
+                </div>
+
+                <div class="pratica-card">
+                    <div class="pratica-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Economia de Energia</h3>
+                    <p>Adoção de práticas que reduzem o consumo de energia, como irrigação eficiente e uso de energias renováveis nas propriedades.</p>
+                </div>
+
+                <div class="pratica-card">
+                    <div class="pratica-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Análise de Solo</h3>
+                    <p>Realização periódica de análises de solo para aplicar fertilizantes na quantidade correta, evitando desperdício e contaminação.</p>
+                </div>
+
+                <div class="pratica-card">
+                    <div class="pratica-icon">
+                        <i class="fas fa-bee"></i>
+                    </div>
+                    <h3>Biodiversidade</h3>
+                    <p>Manutenção de espécies polinizadoras e diversidade biológica, garantindo a saúde do ecossistema e a produtividade agrícola.</p>
+                </div>
+            </div>
+
+            <div class="servicos-ecossistemicos">
+                <h3>Serviços Ecossistêmicos da Agricultura Familiar</h3>
+                <div class="servicos-list">
+                    <div class="servico-item">
+                        <i class="fas fa-water"></i>
+                        <h4>Produção de Água</h4>
+                        <p>Propriedades bem manejadas garantem a recarga de aquíferos e a qualidade da água.</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fas fa-tree"></i>
+                        <h4>Sequestro de Carbono</h4>
+                        <p>Florestas e áreas de preservação ajudam a combater mudanças climáticas.</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fas fa-flower"></i>
+                        <h4>Polinização</h4>
+                        <p>Manutenção de espécies polinizadoras essenciais para a produção agrícola.</p>
+                    </div>
+                    <div class="servico-item">
+                        <i class="fas fa-dna"></i>
+                        <h4>Conservação Genética</h4>
+                        <p>Preservação de sementes crioulas e variedades tradicionais de plantas e animais.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="diversificacao">
+                <h3>Diversificação da Renda</h3>
+                <p>Além da produção agrícola tradicional, a agricultura familiar busca novas alternativas para gerar renda:</p>
+                <div class="diversificacao-grid">
+                    <div class="diversif-card">
+                        <i class="fas fa-hotel"></i>
+                        <h4>Turismo Rural</h4>
+                        <p>Hospedagem e experiências no campo para visitantes urbanos.</p>
+                    </div>
+                    <div class="diversif-card">
+                        <i class="fas fa-palette"></i>
+                        <h4>Artesanato</h4>
+                        <p>Produção de artigos feitos à mão com matérias-primas locais.</p>
+                    </div>
+                    <div class="diversif-card">
+                        <i class="fas fa-utensils"></i>
+                        <h4>Gastronomia</h4>
+                        <p>Produção de alimentos processados e receitas tradicionais.</p>
+                    </div>
+                    <div class="diversif-card">
+                        <i class="fas fa-industry"></i>
+                        <h4>Agroindústria</h4>
+                        <p>Processamento de produtos para agregar valor à produção.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Desafios -->
+    <section id="desafios" class="desafios">
+        <div class="container">
+            <h2>Desafios e Oportunidades</h2>
+            <p class="secao-intro">A agricultura familiar enfrenta desafios, mas também tem grandes oportunidades de crescimento e desenvolvimento.</p>
+
+            <div class="desafios-grid">
+                <div class="desafio-card">
+                    <div class="desafio-header">
+                        <i class="fas fa-cloud-rain"></i>
+                        <h3>Mudanças Climáticas</h3>
+                    </div>
+                    <p><strong>Desafio:</strong> Secas, chuvas intensas e variações climáticas afetam a produção.</p>
+                    <p><strong>Oportunidade:</strong> Adoção de técnicas de adaptação e diversificação de culturas.</p>
+                </div>
+
+                <div class="desafio-card">
+                    <div class="desafio-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Acesso à Tecnologia</h3>
+                    </div>
+                    <p><strong>Desafio:</strong> Dificuldade em acessar novas tecnologias e informações.</p>
+                    <p><strong>Oportunidade:</strong> Programas de extensão rural e capacitação profissional.</p>
+                </div>
+
+                <div class="desafio-card">
+                    <div class="desafio-header">
+                        <i class="fas fa-handshake"></i>
+                        <h3>Acesso ao Mercado</h3>
+                    </div>
+                    <p><strong>Desafio:</strong> Dificuldade em comercializar produtos com preço justo.</p>
+                    <p><strong>Oportunidade:</strong> Cooperativas, associações e programas de compras públicas.</p>
+                </div>
+
+                <div class="desafio-card">
+                    <div class="desafio-header">
+                        <i class="fas fa-coins"></i>
+                        <h3>Crédito e Financiamento</h3>
+                    </div>
+                    <p><strong>Desafio:</strong> Acesso limitado a crédito com juros acessíveis.</p>
+                    <p><strong>Oportunidade:</strong> Planos Safra e linhas de crédito específicas para agricultura familiar.</p>
+                </div>
+
+                <div class="desafio-card">
+                    <div class="desafio-header">
+                        <i class="fas fa-people"></i>
+                        <h3>Sucessão Familiar</h3>
+                    </div>
+                    <p><strong>Desafio:</strong> Jovens deixam o campo em busca de oportunidades na cidade.</p>
+                    <p><strong>Oportunidade:</strong> Programas de apoio à juventude rural e empreendedorismo.</p>
+                </div>
+
+                <div class="desafio-card">
+                    <div class="desafio-header">
+                        <i class="fas fa-venus-mars"></i>
+                        <h3>Igualdade de Gênero</h3>
+                    </div>
+                    <p><strong>Desafio:</strong> Mulheres enfrentam barreiras no acesso a recursos e decisões.</p>
+                    <p><strong>Oportunidade:</strong> Programas de empoderamento e inclusão das mulheres rurais.</p>
+                </div>
+            </div>
+
+            <div class="solucoes">
+                <h3>Soluções e Iniciativas</h3>
+                <div class="solucoes-grid">
+                    <div class="solucao-item">
+                        <h4>IDR-Paraná</h4>
+                        <p>Assistência técnica e extensão rural para melhorar a produtividade e sustentabilidade das propriedades.</p>
+                    </div>
+                    <div class="solucao-item">
+                        <h4>SENAR-PR</h4>
+                        <p>Capacitação profissional e cursos para agricultores familiares.</p>
+                    </div>
+                    <div class="solucao-item">
+                        <h4>Programa de Aquisição de Alimentos (PAA)</h4>
+                        <p>Compra de produtos da agricultura familiar para escolas e instituições públicas.</p>
+                    </div>
+                    <div class="solucao-item">
+                        <h4>Cooperativas e Associações</h4>
+                        <p>Organização coletiva para melhor acesso a mercados e recursos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Agrinho -->
+    <section class="agrinho">
+        <div class="container">
+            <h2>Programa Agrinho 2026</h2>
+            <div class="agrinho-content">
+                <div class="agrinho-text">
+                    <h3>Educação, Cidadania e Sustentabilidade</h3>
+                    <p>O Programa Agrinho é uma das maiores iniciativas de responsabilidade social e educacional do Paraná. Criado em 1995 e levado às escolas em 1996, o programa reúne anualmente cerca de 800 mil estudantes e mais de 50 mil professores.</p>
+                    
+                    <h4>Tema 2026</h4>
+                    <p><strong>"Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"</strong></p>
+                    <p>O tema desafia os estudantes a desenvolverem diferentes gêneros textuais, refletindo sobre a importância do equilíbrio entre a produção agrícola e a preservação ambiental.</p>
+
+                    <h4>Categorias do Concurso</h4>
+                    <ul class="categorias-list">
+                        <li><strong>Redação:</strong> Textos dissertativo-argumentativos, contos e relatos</li>
+                        <li><strong>Desenho:</strong> Expressão artística sobre o tema</li>
+                        <li><strong>Experiência Pedagógica:</strong> Projetos desenvolvidos nas escolas</li>
+                        <li><strong>Relatório Município Agrinho:</strong> Diagnóstico da realidade local</li>
+                        <li><strong>Robótica e Programação:</strong> Soluções tecnológicas para o agro</li>
+                    </ul>
+
+                    <h4>Prêmios</h4>
+                    <p>Os vencedores recebem smartphones e participam da cerimônia de premiação em Curitiba, em novembro.</p>
+                </div>
+                <div class="agrinho-image">
+                    <i class="fas fa-book"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Importância Social -->
+    <section class="importancia">
+        <div class="container">
+            <h2>Por Que a Agricultura Familiar é Importante?</h2>
+            <div class="importancia-grid">
+                <div class="importancia-card">
+                    <i class="fas fa-apple"></i>
+                    <h3>Segurança Alimentar</h3>
+                    <p>Garante que o Brasil tenha alimentos de qualidade na mesa de milhões de famílias todos os dias.</p>
+                </div>
+                <div class="importancia-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Geração de Emprego</h3>
+                    <p>Cria postos de trabalho em pequenos municípios, mantendo as comunidades rurais vivas e dinâmicas.</p>
+                </div>
+                <div class="importancia-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Preservação Ambiental</h3>
+                    <p>Mantém a biodiversidade, protege nascentes e contribui para o equilíbrio do ecossistema.</p>
+                </div>
+                <div class="importancia-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Qualidade de Vida</h3>
+                    <p>Oferece renda e oportunidades para que as famílias rurais vivam com dignidade e bem-estar.</p>
+                </div>
+                <div class="importancia-card">
+                    <i class="fas fa-culture"></i>
+                    <h3>Preservação Cultural</h3>
+                    <p>Mantém vivas as tradições, conhecimentos e modos de vida das comunidades rurais.</p>
+                </div>
+                <div class="importancia-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Desenvolvimento Econômico</h3>
+                    <p>Contribui significativamente para o PIB e a economia dos municípios paranaenses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Saiba Mais</h2>
+            <p class="secao-intro">Quer aprender mais sobre agricultura familiar? Confira os links e informações úteis.</p>
+
+            <div class="contato-grid">
+                <div class="contato-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Sistema FAEP</h3>
+                    <p>Organização que representa os produtores rurais do Paraná.</p>
+                    <a href="https://www.sistemafaep.org.br/agrinho/" target="_blank" class="btn btn-secondary">Visitar</a>
+                </div>
+
+                <div class="contato-card">
+                    <i class="fas fa-tractor"></i>
+                    <h3>IDR-Paraná</h3>
+                    <p>Instituto responsável pela assistência técnica e extensão rural.</p>
+                    <a href="https://www.idrparana.pr.gov.br/" target="_blank" class="btn btn-secondary">Visitar</a>
+                </div>
+
+                <div class="contato-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>SEED-PR</h3>
+                    <p>Secretaria de Educação do Paraná - Programa Agrinho.</p>
+                    <a href="https://www.educacao.pr.gov.br/" target="_blank" class="btn btn-secondary">Visitar</a>
+                </div>
+
+                <div class="contato-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Cartilhas Agrinho</h3>
+                    <p>Materiais educativos sobre temas do programa.</p>
+                    <a href="https://agrinhoms.com.br/cartilhas" target="_blank" class="btn btn-secondary">Visitar</a>
+                </div>
+            </div>
+
+            <div class="formulario-contato">
+                <h3>Deixe Sua Mensagem</h3>
+                <form id="formContato" class="form">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="escola">Escola:</label>
+                        <input type="text" id="escola" name="escola">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+                <div id="mensagemSucesso" class="mensagem-sucesso" style="display:none;">
+                    <i class="fas fa-check-circle"></i>
+                    <p>Obrigado! Sua mensagem foi enviada com sucesso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Sobre Este Site</h4>
+                    <p>Site educativo desenvolvido para o Programa Agrinho 2026 do Paraná, com foco em agricultura familiar e sustentabilidade.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre Agricultura Familiar</a></li>
+                        <li><a href="#dados">Dados e Estatísticas</a></li>
+                        <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                        <li><a href="#desafios">Desafios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Agricultura Familiar - Agrinho Paraná. Desenvolvido para fins educacionais.</p>
+                <p>Tema: "Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente"</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão Voltar ao Topo -->
+    <button id="voltarTopo" class="voltar-topo" title="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
